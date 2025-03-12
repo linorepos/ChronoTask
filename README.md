@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AngularToDoList
 
 A simple to-do list application built with Angular, featuring server-side rendering (SSR) and a JSON server backend.
@@ -84,3 +85,6 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# ChronoTask
+>>>>>>> 3009b37ab139788445cdfab2d1da5a0c22561ce5
