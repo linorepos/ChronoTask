@@ -1,6 +1,33 @@
 # AngularToDoList
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.5.
+A simple to-do list application built with Angular, featuring server-side rendering (SSR) and a JSON server backend.
+
+## Features
+
+- **Server-Side Rendering (SSR):** Enhanced performance and SEO with Angular Universal.
+- **JSON Server Backend:** Mock REST API for to-do item management (port 5000).
+- **CRUD Operations:** Create, read, update, and delete tasks.
+- **Responsive Design:** Optimized for desktop and mobile.
+
+## Prerequisites
+
+- Node.js (v18.x or later)
+- npm (v9.x or later)
+- Angular CLI (install globally via `npm install -g @angular/cli`)
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone
+
+2. Navigate to the project directory
+
+3. Install dependencies (npm install)
+
+## Running the Application
+npm start
+npm run server
 
 ## Development server
 

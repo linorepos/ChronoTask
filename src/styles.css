@@ -1,1 +1,85 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Podkova:wght@400..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Podkova", serif;
+  background-color: rgb(106, 98, 76, 0.165);
+}
+
+.container {
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 30px;
+  border: 2px transparent #3c2f1c;
+  overflow: auto;
+  min-height: 100px;
+}
+
+.btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "Podkova", serif;
+
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  transform: scale(0.99);
+}
+
+.btn-block {
+  width: 30%;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #3c2f1b;
+  font-size: 1rem;
+  margin-left: 50px;
+}
+
+form {
+  background-color: rgba(241, 223, 139, 0.5);
+  width: 102%;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.form-control {
+  padding: 5px;
+}
+
+.form-control input {
+  padding: 6px 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-family: "Podkova", serif;
+
+}
+
+.form-control input:focus {
+  outline: none;
+}
+
+.form-control-check label {
+  font-size: 0.95rem;
+}
+
+input:focus::placeholder {
+  opacity: 0.4;
+}
