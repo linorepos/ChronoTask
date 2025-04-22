@@ -32,7 +32,6 @@ body {
   cursor: pointer;
   text-decoration: none;
   font-family: "Podkova", serif;
-
 }
 
 .btn:focus {
@@ -69,7 +68,6 @@ form {
   border: none;
   border-radius: 8px;
   font-family: "Podkova", serif;
-
 }
 
 .form-control input:focus {

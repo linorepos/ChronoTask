@@ -4,6 +4,7 @@ import { faHourglass } from '@fortawesome/free-solid-svg-icons';
 import { FaIconComponent } from '@fortawesome/angular-fontawesome';
 import { NgClass, NgStyle } from '@angular/common';
 
+// fa = font awesome icon
 @Component({
   selector: 'app-task-item',
   standalone: true,
@@ -15,7 +16,6 @@ export class TaskItemComponent implements OnInit {
   @Input() task!: Task;
   @Output() onDeleteTask: EventEmitter<Task> = new EventEmitter();
   @Output() onToggleReminder: EventEmitter<Task> = new EventEmitter();
-
 
   faHourglass = faHourglass;
   iconSize: number = 16;

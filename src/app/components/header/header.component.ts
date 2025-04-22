@@ -11,7 +11,7 @@ import { Subscription } from 'rxjs';
   styleUrl: './header.component.css',
 })
 export class HeaderComponent {
-  title: string = 'ChronoTask⏱';
+  title: string = 'ChronoTask';
 
   showAddTask: boolean = false;
   subscription: Subscription;
